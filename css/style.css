@@ -1,0 +1,74 @@
+/*
+File: style.css
+GUI Assignment: Homework #5
+Daniel Quinonez, UMass Lowell Computer Science, daniel_quinonezrosario@student.uml.edu
+Copyright (c) 2022 by Daniel. All rights reserved. May be freely copied or excerpted for educational purposes
+with credit to the author.
+Updated by DQ on December 20th, 2022
+*/
+
+body {
+  background-color: aquamarine;
+  text-align: center;
+}
+
+#score_board > div {
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+#rules {
+  margin-bottom: 20px;
+}
+
+#scrabble_board {
+  margin-bottom: 30px;
+}
+
+#button_box {
+  margin-bottom: 100px;
+}
+
+/* the style for the buttons was copied from this link https://getcssscan.com/css-buttons-examples */
+#buttons {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-right: 10px;
+}
+
+#buttons:hover {
+  background-color: #fff;
+}
+#buttons:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  #buttons {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+#letter_rack > img:first-child {
+  margin: 50px auto 20px auto;
+  width: 600px;
+  height: 110px
+}
